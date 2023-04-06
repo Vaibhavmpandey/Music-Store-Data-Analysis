@@ -66,7 +66,7 @@ where milliseconds >
 (Select avg(milliseconds) from track)
 order by milliseconds DESC;
 
-/* Q9: Find how much amount spent by each customer on artists? Write a query to return customer name, artist name and total spent */
+/* Q9: Find how much amount spent by each customer on top artist? Write a query to return customer name, artist name and total spent */
 
 with top_artist as 
  (
